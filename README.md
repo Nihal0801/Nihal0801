@@ -1,20 +1,22 @@
-<!-- 🌌 ANIMATED, STYLISH GITHUB PROFILE README FOR NIHAl PATEL -->
+<!-- 🌌 OPTIMIZED GITHUB PROFILE README FOR NIHAl PATEL (Backend + Cloud + AI Focus) -->
 
 <h1 align="center">Hey 👋, I'm <span style="color:#00A9FF;">Nihal Patel</span></h1>
-<h3 align="center">🚀 Computer Science Student | Web Developer | Tech Explorer</h3>
+<h3 align="center">🚀 Computer Science Student | Backend & Cloud Enthusiast | Aspiring AI Engineer</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00C2FF&width=480&lines=Building+Web+Experiences+that+Work.;Coding+in+C,+Java,+and+Python.;Web+Developer+%40+Ascassy+Cloud+Healthcare.;Disciplined.+Driven.+Detail-Oriented.">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00C2FF&width=520&lines=Building+Scalable+Backend+Systems.;Learning+Cloud+%26+Distributed+Systems.;Exploring+AI+%26+Machine+Learning.;Focused+on+Performance+%26+Efficiency.">
 </p>
 
 ---
 
 ### 💡 About Me
-- 🎓 **Computer Science Undergraduate @ University of Cincinnati (USA)**  
-- 🌍 Formerly at **Nirma University (India)** — CGPA: 3.4  
-- 💻 Experienced **Web Developer** with focus on responsive, secure, and optimized web solutions  
-- 🧩 Skilled in **C, Java, Python, MySQL, HTML, CSS, JavaScript, MATLAB**  
-- ⚙️ Tools I use daily: **Git, GitHub, VS Code, WordPress, Hostinger**  
+- 🎓 **Computer Science Undergraduate @ University of Cincinnati (USA)** - CGPA: 4.000
+- 🌍 Formerly at **Nirma University (India)** — CGPA: 8.460  
+- 💻 Strong foundation in **Java, Python, and backend systems**  
+- ☁️ Actively learning **Cloud Computing (AWS/GCP)** and scalable architectures  
+- 🤖 Exploring **Artificial Intelligence & Machine Learning concepts**  
+- 🧩 Focused on building **data-driven and performance-optimized applications**  
+- ⚙️ Tools I use: **Git, GitHub, VS Code, Linux (Ubuntu)**  
 - 🏆 Recipient of **International Outreach Scholarship (UC)** and **Academic Scholar Award (Nirma University)**  
 
 ---
@@ -23,45 +25,54 @@
 
 **💊 Web Developer – Ascassy Cloud Healthcare (Ahmedabad, India)**  
 *Sept 2024 – Present*  
-- Designed & maintained **healthcare-focused web applications** with responsive UI and performance optimizations  
-- Collaborated with developers in **Agile sprints** to deliver scalable and secure solutions  
-- Introduced structured testing, reducing bug resolution time by **15%**
+- Developed and maintained **healthcare-focused web applications** with emphasis on performance and scalability  
+- Collaborated in **Agile development cycles** to deliver secure and efficient systems  
+- Introduced structured testing practices, reducing bug resolution time by **15%**  
 
 **💎 Web Development Intern – Renodia Diamond Pvt. Ltd. (Remote)**  
 *Dec 2024 – Jan 2025*  
-- Developed a **complete e-commerce jewelry website** using WordPress, WooCommerce & Elementor Pro  
-- Improved SEO & mobile performance — raised traffic by **20%** and reduced page load from **4s to 2s**  
-- Implemented **SSL, firewall, backups**, and custom product layouts for enhanced engagement  
+- Built an **e-commerce platform** with optimized performance and secure architecture  
+- Improved system efficiency — increased traffic by **20%** and reduced load time from **4s to 2s**  
+- Implemented **security layers (SSL, firewall)** and optimized backend workflows  
 
 ---
 
-### 🔬 Academic Projects  
+### 🚀 Projects (Backend & Systems Focus)
 
 | 💻 Project | 🔧 Tech Stack | 📄 Description |
 |-------------|---------------|----------------|
-| **CPU Scheduling Calculator** | C, GTK GUI | Implemented FCFS, SJF, SRTF, Round Robin & Priority Scheduling with Gantt Chart UI |
-| **ATM System** | Java, OOP | Simulated deposits, withdrawals, and PIN security using file handling |
-| **24-Hour Digital Clock** | Logisim | Created real-time clock circuit using flip-flops and counters |
-| **School Management System** | Python, MySQL | CRUD operations for students, teachers, and admin with secure data handling |
+| **CPU Scheduling Calculator** | C, GTK GUI | Implemented FCFS, SJF, SRTF, Round Robin & Priority Scheduling with visualization |
+| **ATM System** | Java, OOP | Simulated banking operations with secure PIN validation and file handling |
+| **School Management System** | Python, MySQL | CRUD-based backend system with structured database integration |
+| **Digital Clock System** | Logisim | Built logic-based real-time clock using flip-flops and counters |
 
 ---
 
 ### 🧠 Tech Stack  
 
-#### 💻 Programming Languages  
+#### 💻 Programming & Core Concepts  
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,java,python,mysql,html,css,javascript,matlab" />
+  <img src="https://skillicons.dev/icons?i=c,java,python,mysql" />
 </p>
 
 #### ⚙️ Tools & Platforms  
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,wordpress,linux,ubuntu,figma" />
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,linux,ubuntu" />
 </p>
 
-#### 🌐 Web Development  
+#### ☁️ Learning & Exploring  
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=wordpress,woocommerce,elementor" />
+  <img src="https://skillicons.dev/icons?i=aws" />
 </p>
+
+---
+
+### ☁️ Current Focus
+
+- 🚀 Building **scalable backend systems and APIs**  
+- ☁️ Learning **cloud platforms (AWS/GCP) and deployment workflows**  
+- 🤖 Exploring **machine learning and data-driven applications**  
+- 🧠 Strengthening **data structures, system design, and distributed systems concepts**  
 
 ---
 
@@ -104,7 +115,7 @@
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 </p>
 
-<h3 align="center">✨ Code. Create. Repeat. ✨</h3>
+<h3 align="center">✨ Build Systems. Scale Ideas. Solve Problems. ✨</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Nihal0801&style=flat-square&color=00C2FF" alt="Profile views"/>
