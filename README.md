@@ -1,4 +1,4 @@
-![Nihal Patel developer terminal](./assets/hero.svg)
+![Nihal Patel animated developer workspace](./assets/hero.svg)
 
 <p align="center">
   <a href="https://www.linkedin.com/in/patel7nv">LinkedIn</a> ·
@@ -7,6 +7,8 @@
 </p>
 
 <p align="center"><sub>This profile is built from code: a hand-authored SVG, GitHub-rendered diagrams, and real project captures.</sub></p>
+
+![Nihal Patel system status](./assets/system-status.svg)
 
 ## `01 / about-me`
 
@@ -23,8 +25,13 @@ I'm a **Computer Science student at the University of Cincinnati** interested in
 
 I'm exploring a model-agnostic orchestration system that can decide **how much computation a task deserves**: one agent or many, local or hosted models, sequential or parallel execution, and when extra verification is worth its cost.
 
-```text
-goal → analyze → choose strategy → execute → verify → learn
+```yaml
+design_target:
+  agents: adaptive
+  providers: model-agnostic
+  execution: [sequential, parallel]
+  verification: required
+  objective: verified_work_per_compute
 ```
 
 The current phase is **architecture and foundations**. The long-term direction is maximum verified useful work per unit of computation—not maximum agents or tokens.
@@ -109,7 +116,7 @@ Using **Unreal Engine, Meta Quest Pro, and a KAT VR treadmill**, I worked on a V
 ---
 
 <p align="center">
-  <code>open to building · learning · research · collaboration</code><br /><br />
+  <code>while (alive) { learn(); build(); measure(); improve(); }</code><br /><br />
   <a href="https://www.linkedin.com/in/patel7nv"><strong>Connect on LinkedIn</strong></a>
   &nbsp;·&nbsp;
   <a href="mailto:patel7nv@mail.uc.edu"><strong>Send an email</strong></a>
