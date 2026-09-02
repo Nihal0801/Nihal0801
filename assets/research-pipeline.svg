@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Attention-Aware VR Research Pipeline</title>
+  <desc id="desc">A four-stage pipeline from gaze input through attention analysis and geometry adaptation to measurable output.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071522"/>
+      <stop offset="1" stop-color="#10263b"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#37d7ff"/>
+      <stop offset="0.5" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000814" flood-opacity="0.5"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#58a6ff"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <path d="M0 0 H1200" stroke="url(#flow)" stroke-width="6"/>
+  <text x="54" y="52" fill="#eefaff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23" font-weight="800">ATTENTION-AWARE VR PIPELINE</text>
+  <text x="54" y="80" fill="#86a9c2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="500">Directing geometric detail toward the region that matters to the participant</text>
+
+  <g stroke="#58a6ff" stroke-width="2" stroke-opacity="0.8" marker-end="url(#arrow)">
+    <path d="M276 183 H340"/>
+    <path d="M566 183 H630"/>
+    <path d="M856 183 H920"/>
+  </g>
+
+  <g transform="translate(54 116)" filter="url(#shadow)">
+    <rect width="222" height="132" rx="18" fill="#0d2941" stroke="#37d7ff" stroke-opacity="0.7"/>
+    <circle cx="38" cy="37" r="18" fill="#123b56" stroke="#37d7ff"/>
+    <path d="M25 37 Q38 25 51 37 Q38 49 25 37 Z" fill="none" stroke="#91edff" stroke-width="2"/>
+    <circle cx="38" cy="37" r="4" fill="#91edff"/>
+    <text x="70" y="35" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="780">GAZE INPUT</text>
+    <text x="22" y="78" fill="#a9c6d9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13">Quest Pro eye tracking</text>
+    <text x="22" y="101" fill="#a9c6d9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13">Raycast + confidence</text>
+  </g>
+
+  <g transform="translate(344 116)" filter="url(#shadow)">
+    <rect width="222" height="132" rx="18" fill="#102944" stroke="#58a6ff" stroke-opacity="0.75"/>
+    <circle cx="38" cy="37" r="18" fill="#173858" stroke="#58a6ff"/>
+    <path d="M28 43 C35 29 42 29 49 43" fill="none" stroke="#acd1ff" stroke-width="2"/>
+    <circle cx="38" cy="33" r="4" fill="#acd1ff"/>
+    <text x="70" y="35" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="780">ATTENTION</text>
+    <text x="22" y="78" fill="#afc7dd" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13">Focus + dwell detection</text>
+    <text x="22" y="101" fill="#afc7dd" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13">Region of interest</text>
+  </g>
+
+  <g transform="translate(634 116)" filter="url(#shadow)">
+    <rect width="222" height="132" rx="18" fill="#142944" stroke="#7b9dff" stroke-opacity="0.75"/>
+    <circle cx="38" cy="37" r="18" fill="#1d365a" stroke="#829fff"/>
+    <path d="M27 45 L30 29 L46 27 L50 43 Z M30 29 L42 40 M46 27 L42 40 M27 45 L42 40 L50 43" fill="none" stroke="#c7d2ff" stroke-width="1.5"/>
+    <text x="70" y="35" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="780">GEOMETRY</text>
+    <text x="22" y="78" fill="#b9c6de" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13">Local detail restoration</text>
+    <text x="22" y="101" fill="#b9c6de" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13">Runtime adaptation</text>
+  </g>
+
+  <g transform="translate(924 116)" filter="url(#shadow)">
+    <rect width="222" height="132" rx="18" fill="#192840" stroke="#a78bfa" stroke-opacity="0.75"/>
+    <circle cx="38" cy="37" r="18" fill="#263554" stroke="#a78bfa"/>
+    <path d="M27 45 V34 M37 45 V26 M47 45 V31" stroke="#e3d7ff" stroke-width="3" stroke-linecap="round"/>
+    <text x="70" y="35" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="780">EVALUATION</text>
+    <text x="22" y="78" fill="#c9bfdb" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13">Triangles + frame rate</text>
+    <text x="22" y="101" fill="#c9bfdb" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13">Heatmaps + CSV logs</text>
+  </g>
+</svg>
