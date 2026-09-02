@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Nihal Patel - Computer Science, AI Systems, Cloud and Spatial Computing</title>
+  <desc id="desc">A dark blue technology banner with Nihal Patel's name and a connected system graphic.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06101d"/>
+      <stop offset="0.55" stop-color="#0a1b2f"/>
+      <stop offset="1" stop-color="#102642"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#37d7ff"/>
+      <stop offset="0.55" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#37d7ff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#37d7ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#8ddcff" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000814" flood-opacity="0.55"/>
+    </filter>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+  <circle cx="1050" cy="80" r="250" fill="url(#glow)"/>
+  <circle cx="670" cy="350" r="210" fill="url(#glow)" opacity="0.55"/>
+  <path d="M0 328 C260 285 460 372 705 320 C920 275 1030 315 1200 252 L1200 360 L0 360 Z" fill="#0b223a" opacity="0.55"/>
+  <rect x="0" y="354" width="1200" height="6" fill="url(#accent)"/>
+
+  <g transform="translate(76 73)">
+    <rect x="0" y="0" width="174" height="32" rx="16" fill="#102d49" stroke="#37d7ff" stroke-opacity="0.45"/>
+    <circle cx="18" cy="16" r="5" fill="#46e6b0" filter="url(#softGlow)"/>
+    <text x="33" y="21" fill="#b9eaff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5">BUILDING NOW</text>
+
+    <text x="0" y="102" fill="#f4fbff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="61" font-weight="780" letter-spacing="-2">NIHAL PATEL</text>
+    <rect x="0" y="122" width="420" height="4" rx="2" fill="url(#accent)"/>
+    <text x="0" y="169" fill="#a9c5dc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="500">Computer Science @ University of Cincinnati</text>
+    <text x="0" y="213" fill="#d9f5ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="650" letter-spacing="1.6">AI SYSTEMS  /  CLOUD  /  COMPUTER VISION  /  XR</text>
+  </g>
+
+  <g transform="translate(846 180)" filter="url(#shadow)">
+    <path d="M0 0 L-108 -82 M0 0 L112 -78 M0 0 L134 64 M0 0 L-106 86" stroke="#58a6ff" stroke-opacity="0.45" stroke-width="2"/>
+    <path d="M-108 -82 L112 -78 M112 -78 L134 64 M134 64 L-106 86 M-106 86 L-108 -82" stroke="#37d7ff" stroke-opacity="0.13" stroke-width="1" stroke-dasharray="5 8"/>
+
+    <circle cx="0" cy="0" r="70" fill="#0c2742" stroke="url(#accent)" stroke-width="3"/>
+    <circle cx="0" cy="0" r="52" fill="#0a1b2f" stroke="#58a6ff" stroke-opacity="0.35"/>
+    <text x="0" y="-5" text-anchor="middle" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">SYSTEMS</text>
+    <text x="0" y="20" text-anchor="middle" fill="#71ddff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2">THINKING</text>
+
+    <g transform="translate(-108 -82)">
+      <circle r="42" fill="#0f2b47" stroke="#37d7ff" stroke-width="2"/>
+      <text y="5" text-anchor="middle" fill="#dff8ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="750">AI</text>
+    </g>
+    <g transform="translate(112 -78)">
+      <circle r="42" fill="#14294a" stroke="#7aa7ff" stroke-width="2"/>
+      <text y="5" text-anchor="middle" fill="#e8efff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="750">CLOUD</text>
+    </g>
+    <g transform="translate(134 64)">
+      <circle r="42" fill="#182844" stroke="#a78bfa" stroke-width="2"/>
+      <text y="5" text-anchor="middle" fill="#f1eaff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="750">XR</text>
+    </g>
+    <g transform="translate(-106 86)">
+      <circle r="42" fill="#0d3042" stroke="#46e6b0" stroke-width="2"/>
+      <text y="5" text-anchor="middle" fill="#ddfff5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="750">CODE</text>
+    </g>
+  </g>
+</svg>
