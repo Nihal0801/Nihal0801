@@ -1,39 +1,58 @@
-![Nihal Patel - Computer Science, AI Systems, Cloud and Spatial Computing](./assets/hero.svg)
+![Nihal Patel developer terminal](./assets/hero.svg)
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/patel7nv"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:patel7nv@mail.uc.edu"><img src="https://img.shields.io/badge/Email-patel7nv%40mail.uc.edu-253858?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  <img src="https://img.shields.io/badge/Location-Cincinnati%2C_Ohio-0E7490?style=flat-square&logo=googlemaps&logoColor=white" alt="Cincinnati, Ohio" />
+  <a href="https://www.linkedin.com/in/patel7nv">LinkedIn</a> ·
+  <a href="mailto:patel7nv@mail.uc.edu">Email</a> ·
+  Cincinnati, Ohio
 </p>
 
-## About
+<p align="center"><sub>This profile is built from code: a hand-authored SVG, GitHub-rendered diagrams, and real project captures.</sub></p>
 
-I'm a Computer Science student at the **University of Cincinnati**, where I transferred after completing my first two years at **Nirma University** in India.
+## `01 / about-me`
 
-I like working where **AI, software systems, cloud infrastructure, and real-time computing** meet. My goal is not just to make impressive demos—it is to build measurable systems, understand their limitations, and keep improving how efficiently they solve real problems.
+I'm a **Computer Science student at the University of Cincinnati** interested in the intersection of AI, software systems, cloud infrastructure, computer vision, and spatial computing.
 
-Currently, I am exploring the design of an **adaptive multi-agent AI runtime** that can select an appropriate execution strategy, models, tools, and verification process for each task.
+- 🎓 Transferred to UC after completing my first two years at **Nirma University** in India
+- 🔬 Completed a **Summer 2026 research internship** with UC's Office of Research / Digital Futures
+- 🧠 I like building measurable systems—not just demos—and understanding where they fail
+- ☁️ Currently strengthening my foundations in cloud architecture, ML/CV, distributed systems, and AI evaluation
 
-## Research Highlight
+## `02 / currently-building`
+
+### OrbiT — Adaptive Agent Runtime
+
+I'm exploring a model-agnostic orchestration system that can decide **how much computation a task deserves**: one agent or many, local or hosted models, sequential or parallel execution, and when extra verification is worth its cost.
+
+```text
+goal → analyze → choose strategy → execute → verify → learn
+```
+
+The current phase is **architecture and foundations**. The long-term direction is maximum verified useful work per unit of computation—not maximum agents or tokens.
+
+## `03 / research`
 
 ### Attention-Aware VR Manufacturing Training
 
-**Summer Research Intern · University of Cincinnati Office of Research / Digital Futures · May–July 2026**
+**Summer Research Intern · UC Office of Research / Digital Futures · May–July 2026**
 
-![Attention-Aware VR Pipeline](./assets/research-pipeline.svg)
+```mermaid
+flowchart LR
+    A["Quest Pro gaze"] --> B["Focus detection"]
+    B --> C["Attention region"]
+    C --> D["Local mesh detail"]
+    D --> E["Performance metrics"]
+```
 
-- Built a VR manufacturing-training environment using **Unreal Engine, Meta Quest Pro, and the KAT VR treadmill**
-- Investigated an **Attention-Aware Geometry Engine** that uses visual focus to preserve or restore geometric detail where it matters most
-- Worked with gaze raycasting, heatmaps, focus detection, CSV logging, triangle metrics, and runtime performance analysis
-- Presented the work through the **UC–Nirma Summer Research Internship Program**
+Using **Unreal Engine, Meta Quest Pro, and a KAT VR treadmill**, I worked on a VR manufacturing-training environment and investigated gaze-guided geometric adaptation. The prototype captured gaze rays, confidence, attention regions, triangle counts, and frame performance for analysis.
 
-| Example prototype run | Result |
+| Example run | Measured result |
 |---|---:|
+| Runtime | **188.8 seconds** |
 | Valid gaze samples | **95.7%** |
 | Average gaze confidence | **0.962** |
 | Average frame rate | **36.95 FPS** |
 
-## Selected Projects
+## `04 / selected-projects`
 
 <table>
   <tr>
@@ -42,53 +61,56 @@ Currently, I am exploring the design of an **adaptive multi-agent AI runtime** t
         <img src="https://github.com/user-attachments/assets/90528f0b-0272-437d-bdda-7c3e498b317f" width="100%" alt="Langsam VR Classroom" />
       </a>
       <h3>Langsam VR Classroom</h3>
-      <p>A collaborative virtual classroom featuring modeled environments, animated characters, controller interactions, and an in-world drawing system.</p>
-      <p><strong>Unity · Blender · Meta SDK · C#</strong></p>
+      <p>Collaborative VR classroom with modeled environments, animated characters, controller interaction, and an in-world drawing system.</p>
+      <p><code>Unity</code> <code>Blender</code> <code>Meta SDK</code> <code>C#</code></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/Nihal0801/ar-knickknack">
         <img src="https://raw.githubusercontent.com/Nihal0801/ar-knickknack/main/Images/Taj_Mahal.png" width="100%" alt="AR Taj Mahal Knick-Knack" />
       </a>
       <h3>AR Taj Mahal Knick-Knack</h3>
-      <p>A marker-based augmented-reality scene with live weather, local time, contextual information, lighting, and ambient audio.</p>
-      <p><strong>Unity · Vuforia · C# · OpenWeather API</strong></p>
+      <p>Marker-based AR scene with live weather, local time, contextual information, dynamic lighting, and ambient audio.</p>
+      <p><code>Unity</code> <code>Vuforia</code> <code>C#</code> <code>OpenWeather</code></p>
     </td>
   </tr>
 </table>
 
-| Project | Focus | Stack |
+| Repository | What I built | Core technology |
 |---|---|---|
-| [Attention-Aware Geometry](https://github.com/Nihal0801/Dynamic-Meshing) | Gaze-guided local geometric adaptation in Unreal Engine | Unreal Engine, VR, Eye Tracking |
-| [JPMC Advanced Software Engineering](https://github.com/Nihal0801/forage-midas) | REST APIs, Kafka messaging, and transaction processing | Java, Spring, Kafka, H2 |
+| [Dynamic-Meshing](https://github.com/Nihal0801/Dynamic-Meshing) | Gaze-guided local geometric adaptation prototype | `Unreal Engine` `VR` `Eye Tracking` |
+| [forage-midas](https://github.com/Nihal0801/forage-midas) | Transaction processing with REST APIs and Kafka messaging | `Java` `Spring` `Kafka` `H2` |
 
-## Technical Toolbox
+## `05 / technical-toolbox`
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,c,cs,js,mysql,spring,unreal,unity,blender,git,github,linux,aws&perline=14" alt="Python, Java, C, C Sharp, JavaScript, MySQL, Spring, Unreal Engine, Unity, Blender, Git, GitHub, Linux and AWS" />
-</p>
-
-| Area | Technologies and concepts |
+| Layer | Tools and concepts |
 |---|---|
-| **AI and data** | Computer vision, data analysis, gaze analytics, machine-learning fundamentals |
-| **Software systems** | REST APIs, backend development, databases, testing, distributed-systems fundamentals |
-| **Spatial computing** | Unreal Engine, Unity, Blender, Meta Quest, Vuforia, eye tracking |
-| **Currently learning** | Cloud architecture, AWS, multi-agent systems, model routing, AI evaluation |
+| **Languages** | `Python` `Java` `C` `C#` `JavaScript` `SQL` |
+| **Backend & data** | `REST APIs` `Spring` `MySQL` `H2` `Kafka` `Testing` |
+| **Spatial computing** | `Unreal Engine` `Unity` `Blender` `Meta Quest` `Vuforia` `Eye Tracking` |
+| **Systems & workflow** | `Git` `GitHub` `Linux` `Data Structures` `Distributed Systems` |
+| **Building toward** | `AWS` `Cloud Architecture` `ML/CV` `Multi-Agent Systems` `Model Routing` `AI Evaluation` |
 
-## Journey
+## `06 / journey`
 
-![Journey from Nirma University to AI Systems and Cloud](./assets/journey.svg)
+| When | Milestone |
+|---|---|
+| **2023–2025** | Began Computer Science at **Nirma University** · CGPA **8.46/10** |
+| **2025–present** | Transferred to the **University of Cincinnati** for a BS in Computer Science |
+| **Summer 2026** | Research intern at **UC Digital Futures / Smart Manufacturing Lab** |
+| **Now** | Building toward **AI systems, cloud engineering, computer vision, and spatial computing** |
 
-## Current Direction
+## `07 / highlights`
 
-- Building toward **AI systems engineering** with a focus on orchestration, evaluation, reliability, and efficient computation
-- Strengthening my foundations in **computer vision, machine learning, cloud computing, and scalable software design**
-- Exploring how research prototypes can become reproducible, useful, and production-minded systems
-
-> **Fun fact:** I skipped the tutorial level of college and jumped straight into Year 3.
+- 🏆 **CEAS International Outreach Scholarship**, University of Cincinnati
+- 🏆 **CEAS Transfer Scholarship**, University of Cincinnati
+- 🥽 Built projects spanning VR collaboration, gaze analytics, AR, backend services, and event-driven systems
+- ⚡ Fun fact: I skipped the tutorial level of college and jumped straight into Year 3
 
 ---
 
 <p align="center">
-  <strong>Interested in AI systems, cloud engineering, computer vision, or spatial computing?</strong><br />
-  <a href="https://www.linkedin.com/in/patel7nv">Let's connect on LinkedIn</a>
+  <code>open to building · learning · research · collaboration</code><br /><br />
+  <a href="https://www.linkedin.com/in/patel7nv"><strong>Connect on LinkedIn</strong></a>
+  &nbsp;·&nbsp;
+  <a href="mailto:patel7nv@mail.uc.edu"><strong>Send an email</strong></a>
 </p>
