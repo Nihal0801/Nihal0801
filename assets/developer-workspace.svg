@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
+  <title id="title">Nihal Patel developer workspace</title>
+  <desc id="desc">An animated code editor and terminal introducing Nihal Patel, a Computer Science student building AI systems, cloud software, computer vision, and spatial computing projects.</desc>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    .ui { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .tiny { font-size: 12px; }
+    .small { font-size: 14px; }
+    .code { font-size: 16px; }
+    .dim { fill: #6e7681; }
+    .text { fill: #c9d1d9; }
+    .bright { fill: #f0f6fc; }
+    .blue { fill: #79c0ff; }
+    .purple { fill: #d2a8ff; }
+    .green { fill: #7ee787; }
+    .orange { fill: #ffa657; }
+    .yellow { fill: #e3b341; }
+    .cyan { fill: #56d4dd; }
+    .enter { animation: enter .55s cubic-bezier(.2,.8,.2,1) both; }
+    .d1 { animation-delay: .12s; } .d2 { animation-delay: .24s; } .d3 { animation-delay: .36s; }
+    .d4 { animation-delay: .48s; } .d5 { animation-delay: .60s; } .d6 { animation-delay: .72s; }
+    .d7 { animation-delay: .84s; } .d8 { animation-delay: .96s; } .d9 { animation-delay: 1.08s; }
+    .cursor { animation: blink 1s steps(1,end) infinite; }
+    .pulse { transform-origin: center; animation: pulse 2.2s ease-in-out infinite; }
+    .draw { stroke-dasharray: 410; animation: draw 2.4s 1.1s ease-out both; }
+    .progress { animation: progress 4s cubic-bezier(.4,0,.2,1) infinite; }
+    .scan { animation: scan 5s linear infinite; }
+    @keyframes enter { from { opacity: 0; transform: translateY(7px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes pulse { 0%,100% { opacity: .55; transform: scale(.78); } 50% { opacity: 1; transform: scale(1.18); } }
+    @keyframes draw { from { stroke-dashoffset: 410; } to { stroke-dashoffset: 0; } }
+    @keyframes progress { 0% { width: 28px; } 45%,70% { width: 184px; } 100% { width: 28px; } }
+    @keyframes scan { from { transform: translateX(-260px); } to { transform: translateX(1200px); } }
+    @media (prefers-reduced-motion: reduce) {
+      .enter, .cursor, .pulse, .draw, .progress, .scan { animation: none !important; opacity: 1; transform: none; }
+      .draw { stroke-dashoffset: 0; } .progress { width: 184px; }
+    }
+  </style>
+
+  <rect x="1" y="1" width="1198" height="538" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+  <path d="M13 1h1174a12 12 0 0 1 12 12v32H1V13A12 12 0 0 1 13 1Z" fill="#161b22"/>
+  <circle cx="24" cy="23" r="6" fill="#ff7b72"/><circle cx="45" cy="23" r="6" fill="#f2cc60"/><circle cx="66" cy="23" r="6" fill="#3fb950"/>
+  <text x="600" y="28" text-anchor="middle" class="mono tiny dim">nihal.dev — profile workspace</text>
+
+  <rect x="1" y="45" width="213" height="463" fill="#0b0f14"/>
+  <line x1="214" y1="45" x2="214" y2="508" stroke="#21262d"/>
+  <text x="18" y="73" class="ui tiny dim" letter-spacing="1.5">EXPLORER</text>
+  <text x="18" y="102" class="mono small text">⌄  NIHAL.DEV</text>
+  <g class="mono small">
+    <text x="33" y="132" class="blue">⌄ src</text>
+    <text x="51" y="158" class="bright">◇ profile.ts</text>
+    <text x="51" y="184" class="purple">◈ orbit.runtime</text>
+    <text x="51" y="210" class="green">✓ research.log</text>
+    <text x="33" y="242" class="orange">› projects</text>
+    <text x="33" y="270" class="yellow">› spatial-lab</text>
+    <text x="33" y="298" class="cyan">› cloud</text>
+  </g>
+  <line x1="18" y1="325" x2="194" y2="325" stroke="#21262d"/>
+  <text x="18" y="352" class="ui tiny dim" letter-spacing="1.5">OUTLINE</text>
+  <g class="mono tiny text">
+    <text x="28" y="381">developer</text><text x="176" y="381" class="dim">object</text>
+    <text x="28" y="406">focus</text><text x="176" y="406" class="dim">array</text>
+    <text x="28" y="431">principle</text><text x="176" y="431" class="dim">string</text>
+    <text x="28" y="456">status</text><text x="176" y="456" class="dim">string</text>
+  </g>
+
+  <rect x="215" y="45" width="680" height="39" fill="#0d1117"/>
+  <rect x="215" y="45" width="154" height="39" fill="#161b22"/>
+  <line x1="215" y1="83" x2="369" y2="83" stroke="#58a6ff" stroke-width="2"/>
+  <text x="236" y="70" class="mono small bright">◇ profile.ts</text>
+  <text x="390" y="70" class="mono small dim">◈ orbit.runtime</text>
+
+  <g class="mono code">
+    <g class="enter d1"><text x="236" y="119" class="dim">01</text><text x="278" y="119" class="purple">export const </text><text x="420" y="119" class="blue">developer</text><text x="507" y="119" class="text"> = {</text></g>
+    <g class="enter d2"><text x="236" y="149" class="dim">02</text><text x="300" y="149" class="cyan">name</text><text x="345" y="149" class="text">: </text><text x="362" y="149" class="orange">"Nihal Patel"</text><text x="476" y="149" class="text">,</text></g>
+    <g class="enter d3"><text x="236" y="179" class="dim">03</text><text x="300" y="179" class="cyan">role</text><text x="345" y="179" class="text">: </text><text x="362" y="179" class="orange">"CS @ University of Cincinnati"</text><text x="661" y="179" class="text">,</text></g>
+    <g class="enter d4"><text x="236" y="209" class="dim">04</text><text x="300" y="209" class="cyan">focus</text><text x="353" y="209" class="text">: [</text></g>
+    <g class="enter d5"><text x="236" y="239" class="dim">05</text><text x="322" y="239" class="orange">"AI systems"</text><text x="437" y="239" class="text">, </text><text x="454" y="239" class="orange">"cloud"</text><text x="524" y="239" class="text">,</text></g>
+    <g class="enter d6"><text x="236" y="269" class="dim">06</text><text x="322" y="269" class="orange">"computer vision"</text><text x="478" y="269" class="text">, </text><text x="495" y="269" class="orange">"spatial computing"</text></g>
+    <g class="enter d7"><text x="236" y="299" class="dim">07</text><text x="300" y="299" class="text">],</text></g>
+    <g class="enter d8"><text x="236" y="329" class="dim">08</text><text x="300" y="329" class="cyan">principle</text><text x="392" y="329" class="text">: </text><text x="409" y="329" class="orange">"build → measure → improve"</text><text x="677" y="329" class="text">,</text></g>
+    <g class="enter d9"><text x="236" y="359" class="dim">09</text><text x="300" y="359" class="cyan">status</text><text x="362" y="359" class="text">: </text><text x="379" y="359" class="green">"shipping"</text></g>
+    <g class="enter d9"><text x="236" y="389" class="dim">10</text><text x="278" y="389" class="text">};</text><rect x="301" y="372" width="9" height="21" fill="#58a6ff" class="cursor"/></g>
+  </g>
+
+  <rect x="215" y="410" width="680" height="98" fill="#0a0e13"/>
+  <line x1="215" y1="410" x2="895" y2="410" stroke="#21262d"/>
+  <text x="236" y="435" class="ui tiny bright" letter-spacing="1.2">TERMINAL</text>
+  <line x1="236" y1="446" x2="300" y2="446" stroke="#58a6ff" stroke-width="2"/>
+  <text x="236" y="472" class="mono small green">nihal@github</text><text x="334" y="472" class="mono small text">:</text><text x="344" y="472" class="mono small blue">~</text><text x="356" y="472" class="mono small text">$ ./build-future --verbose</text>
+  <text x="236" y="496" class="mono tiny dim">› compiling research, systems, and ideas into useful software...</text>
+
+  <rect x="895" y="45" width="304" height="463" fill="#0b0f14"/>
+  <line x1="895" y1="45" x2="895" y2="508" stroke="#21262d"/>
+  <text x="916" y="73" class="ui tiny dim" letter-spacing="1.5">BUILD OUTPUT</text>
+  <g class="mono small">
+    <text x="916" y="111" class="green">✓</text><text x="938" y="111" class="text">profile.compile</text>
+    <text x="916" y="141" class="green">✓</text><text x="938" y="141" class="text">research.index</text>
+    <text x="916" y="171" class="green">✓</text><text x="938" y="171" class="text">projects.link</text>
+    <circle cx="921" cy="201" r="5" fill="#d2a8ff" class="pulse"/><text x="938" y="206" class="text">orbit.design</text>
+  </g>
+  <line x1="916" y1="232" x2="1177" y2="232" stroke="#21262d"/>
+  <text x="916" y="261" class="mono tiny dim">VERIFICATION</text><text x="1177" y="261" text-anchor="end" class="mono tiny green">ON</text>
+  <text x="916" y="294" class="mono tiny dim">SYSTEM SIGNAL</text>
+  <path d="M916 343 L936 343 L946 320 L958 367 L973 300 L988 352 L1007 330 L1024 343 L1045 343 L1057 314 L1073 360 L1092 326 L1108 343 L1132 343 L1144 323 L1157 343 L1177 343" fill="none" stroke="#58a6ff" stroke-width="2" stroke-linejoin="round" class="draw"/>
+  <line x1="916" y1="343" x2="1177" y2="343" stroke="#21262d" stroke-dasharray="3 5"/>
+  <text x="916" y="392" class="mono tiny dim">QUALITY GATE</text>
+  <rect x="916" y="407" width="202" height="8" rx="4" fill="#21262d"/>
+  <rect x="916" y="407" width="184" height="8" rx="4" fill="#3fb950" class="progress"/>
+  <text x="1131" y="415" class="mono tiny green">PASS</text>
+  <text x="916" y="458" class="mono tiny dim">MODE</text><text x="1177" y="458" text-anchor="end" class="mono tiny purple">ADAPTIVE</text>
+  <text x="916" y="485" class="mono tiny dim">LOCATION</text><text x="1177" y="485" text-anchor="end" class="mono tiny text">CINCINNATI, OH</text>
+
+  <rect x="1" y="508" width="1198" height="31" rx="0 0 11 11" fill="#0969da"/>
+  <text x="19" y="529" class="mono tiny" fill="#ffffff">main*</text>
+  <text x="90" y="529" class="mono tiny" fill="#ffffff">↻ 0  ⇡ 0</text>
+  <text x="1005" y="529" class="mono tiny" fill="#ffffff">UTF-8</text>
+  <text x="1071" y="529" class="mono tiny" fill="#ffffff">TypeScript</text>
+  <rect x="0" y="506" width="250" height="2" fill="#79c0ff" opacity=".45" class="scan"/>
+</svg>
