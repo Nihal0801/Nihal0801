@@ -1,4 +1,4 @@
-![Nihal Patel animated developer workspace](./assets/hero.svg)
+![Nihal Patel animated developer workspace](./assets/developer-workspace.svg)
 
 <p align="center">
   <a href="https://www.linkedin.com/in/patel7nv">LinkedIn</a> ·
