@@ -1,122 +1,82 @@
-<!-- 🌌 OPTIMIZED GITHUB PROFILE README FOR NIHAl PATEL (Backend + Cloud + AI Focus) -->
+<div align="center">
 
-<h1 align="center">Hey 👋, I'm <span style="color:#00A9FF;">Nihal Patel</span></h1>
-<h3 align="center">🚀 Computer Science Student | Backend & Cloud Enthusiast | Aspiring AI Engineer</h3>
+# Nihal Patel
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00C2FF&width=520&lines=Building+Scalable+Backend+Systems.;Learning+Cloud+%26+Distributed+Systems.;Exploring+AI+%26+Machine+Learning.;Focused+on+Performance+%26+Efficiency.">
-</p>
+**Computer Science student building intelligent, measurable systems.**
 
----
+AI Engineering · Software Systems · Cloud Computing · Spatial Computing
 
-### 💡 About Me
-- 🎓 **Computer Science Undergraduate @ University of Cincinnati (USA)** - CGPA: 4.000
-- 🌍 Formerly at **Nirma University (India)** — CGPA: 8.460  
-- 💻 Strong foundation in **Java, Python, and backend systems**  
-- ☁️ Actively learning **Cloud Computing (AWS/GCP)** and scalable architectures  
-- 🤖 Exploring **Artificial Intelligence & Machine Learning concepts**  
-- 🧩 Focused on building **data-driven and performance-optimized applications**  
-- ⚙️ Tools I use: **Git, GitHub, VS Code, Linux (Ubuntu)**  
-- 🏆 Recipient of **International Outreach Scholarship (UC)** and **Academic Scholar Award (Nirma University)**  
+[LinkedIn](https://www.linkedin.com/in/patel7nv) · [Email](mailto:patel7nv@mail.uc.edu) · Cincinnati, Ohio
+
+</div>
 
 ---
 
-### 💼 Work Experience  
+## About
 
-**💊 Web Developer – Ascassy Cloud Healthcare (Ahmedabad, India)**  
-*Sept 2024 – Present*  
-- Developed and maintained **healthcare-focused web applications** with emphasis on performance and scalability  
-- Collaborated in **Agile development cycles** to deliver secure and efficient systems  
-- Introduced structured testing practices, reducing bug resolution time by **15%**  
+I'm a Computer Science student at the **University of Cincinnati**, where I transferred after completing my first two years at **Nirma University** in India.
 
-**💎 Web Development Intern – Renodia Diamond Pvt. Ltd. (Remote)**  
-*Dec 2024 – Jan 2025*  
-- Built an **e-commerce platform** with optimized performance and secure architecture  
-- Improved system efficiency — increased traffic by **20%** and reduced load time from **4s to 2s**  
-- Implemented **security layers (SSL, firewall)** and optimized backend workflows  
+I enjoy building systems that connect AI, software engineering, real-time computing, and cloud infrastructure—and measuring whether they actually work.
 
----
+Right now, I am:
 
-### 🚀 Projects (Backend & Systems Focus)
+- exploring the design of an **adaptive multi-agent AI runtime** that can choose the appropriate agents, models, tools, and verification strategy for each task
+- developing stronger foundations in **computer vision, machine learning, cloud computing, and scalable software systems**
+- turning research ideas into reproducible prototypes with observable performance and clearly stated limitations
 
-| 💻 Project | 🔧 Tech Stack | 📄 Description |
-|-------------|---------------|----------------|
-| **CPU Scheduling Calculator** | C, GTK GUI | Implemented FCFS, SJF, SRTF, Round Robin & Priority Scheduling with visualization |
-| **ATM System** | Java, OOP | Simulated banking operations with secure PIN validation and file handling |
-| **School Management System** | Python, MySQL | CRUD-based backend system with structured database integration |
-| **Digital Clock System** | Logisim | Built logic-based real-time clock using flip-flops and counters |
+## Research Highlight
 
----
+### Attention-Aware VR Manufacturing Training
 
-### 🧠 Tech Stack  
+**Summer Research Intern · University of Cincinnati Office of Research / Digital Futures · May–July 2026**
 
-#### 💻 Programming & Core Concepts  
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=c,java,python,mysql" />
-</p>
+- Built a VR manufacturing-training environment using **Unreal Engine, Meta Quest Pro, and the KAT VR treadmill**
+- Investigated an **Attention-Aware Geometry Engine** that uses a participant's visual focus to preserve or restore geometric detail where it matters most
+- Worked with gaze raycasting, heatmaps, fixation and focus detection, CSV logging, triangle metrics, and runtime performance analysis
+- Presented the work as part of the **UC–Nirma Summer Research Internship Program**
 
-#### ⚙️ Tools & Platforms  
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,linux,ubuntu" />
-</p>
+## Selected Work
 
-#### ☁️ Learning & Exploring  
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=aws" />
-</p>
+| Project | What I built | Technologies |
+|---|---|---|
+| [Attention-Aware Geometry](https://github.com/Nihal0801/Dynamic-Meshing) | Unreal Engine research prototype exploring gaze-guided, local geometric adaptation | Unreal Engine, VR, Eye Tracking |
+| [Langsam VR Classroom](https://github.com/Nihal0801/Langsam-418) | Collaborative virtual classroom with modeled environments, animated characters, and controller-based interactions | Unity, Blender, Meta SDK, C# |
+| [AR Taj Mahal Knick-Knack](https://github.com/Nihal0801/ar-knickknack) | Marker-based AR scene with live weather, local time, contextual panels, lighting, and ambient audio | Unity, Vuforia, C#, OpenWeather API |
+| [JPMC Advanced Software Engineering](https://github.com/Nihal0801/forage-midas) | Backend engineering simulation involving REST APIs, Kafka messaging, and transaction processing | Java, Spring, Kafka, H2 |
 
----
+## Technical Toolbox
 
-### ☁️ Current Focus
+| Area | Technologies and concepts |
+|---|---|
+| **Languages** | Python, Java, C, C#, JavaScript, SQL |
+| **AI and data** | Computer vision, data analysis, gaze analytics, machine-learning fundamentals |
+| **Software systems** | REST APIs, backend development, databases, testing, distributed-systems fundamentals |
+| **Spatial computing** | Unreal Engine, Unity, Blender, Meta Quest, Vuforia, eye tracking |
+| **Developer tools** | Git, GitHub, Linux, MySQL, VS Code |
+| **Currently learning** | Cloud architecture, AWS, multi-agent systems, model routing, AI evaluation |
 
-- 🚀 Building **scalable backend systems and APIs**  
-- ☁️ Learning **cloud platforms (AWS/GCP) and deployment workflows**  
-- 🤖 Exploring **machine learning and data-driven applications**  
-- 🧠 Strengthening **data structures, system design, and distributed systems concepts**  
+## Education
 
----
+**University of Cincinnati**  
+Bachelor of Science in Computer Science · 2025–Present
 
-### 🏆 Achievements  
-- 🎓 **International Outreach Scholarship** — University of Cincinnati  
-- 🏅 **Academic Scholar Award** — Nirma University  
-- 📜 **Internship Certificate** — Web Developer (E-Commerce)  
+**Nirma University**  
+Computer Science · Completed the first two years before transferring · CGPA: 8.46/10
 
----
+Recipient of the **CEAS International Outreach Scholarship** and **CEAS Transfer Scholarship** at the University of Cincinnati.
 
-### 📊 GitHub Insights  
+## What I Care About
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nihal0801&show_icons=true&theme=tokyonight&hide_border=true" height="160em"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nihal0801&theme=tokyonight&hide_border=true" height="160em"/>
-</p>
+I am most interested in work where AI is treated as an engineering system—not just a demo. That includes orchestration, evaluation, reliability, model and tool routing, efficient computation, real-time interaction, and the cloud infrastructure needed to make those systems useful.
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nihal0801&theme=react-dark&hide_border=true" />
-</p>
+> Fun fact: I skipped the tutorial level of college and jumped straight into Year 3.
 
 ---
 
-### 🌐 Connect With Me  
+<div align="center">
 
-<p align="center">
-  <a href="mailto:patel7nv@mail.uc.edu"><img src="https://img.shields.io/badge/Email-patel7nv%40mail.uc.edu-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/patel7nv"><img src="https://img.shields.io/badge/LinkedIn-Nihal%20Patel-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://github.com/Nihal0801"><img src="https://img.shields.io/badge/GitHub-Nihal0801-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-</p>
+**Interested in AI systems, cloud engineering, computer vision, or spatial computing? Let's connect.**
 
----
+[LinkedIn](https://www.linkedin.com/in/patel7nv) · [Email](mailto:patel7nv@mail.uc.edu) · [GitHub](https://github.com/Nihal0801)
 
-### ⚡ Quote I Live By  
-> “Discipline creates freedom. Routine builds legacy.”  
-
----
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
-</p>
-
-<h3 align="center">✨ Build Systems. Scale Ideas. Solve Problems. ✨</h3>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Nihal0801&style=flat-square&color=00C2FF" alt="Profile views"/>
-</p>
+</div>
